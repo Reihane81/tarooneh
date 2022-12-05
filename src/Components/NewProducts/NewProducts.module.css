@@ -1,0 +1,135 @@
+
+.container {
+    width: min(90%,1533px);
+    margin: 4rem auto;
+    background: rgb(251, 249, 247);
+}
+
+#saleProduct {
+    overflow: hidden;
+    box-shadow: 0 5px 6px rgb(172 180 198 / 20%);
+    border-radius: .6rem;
+}
+
+#title {
+    background-color: rgb(252, 239, 232);
+    align-items: center;
+}
+
+.more {
+    padding-left: .5rem;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: .9rem;
+}
+
+#boxSlider {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 1rem .5rem;
+}
+
+#dFlex {
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgSale img{
+    width: 100%;
+    transform: translateX(3.125rem);
+}
+
+#divSlider {
+    width: min(90%,63.25rem);
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    gap: 1.25rem;
+}
+
+#slider {
+    padding: 1.7rem 0 1.2rem;
+    margin: auto;
+}
+
+#mobileContainer {
+    display: none
+}
+
+#mobileSlider {
+    display: none;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 2rem 1.5rem;
+    overflow-x: auto;
+}
+
+#saleBox {
+    flex-shrink: 0;
+}
+
+#buttonPrev,
+#buttonNext {
+    display: flex;
+    align-items: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#buttonNext {
+    right: 0;
+    transform: translate(55%,-20%);
+    padding-left: 1.25rem;
+    justify-content: flex-end;
+}
+
+#buttonPrev {
+    left: 0;
+    transform: translate(-55%,-20%);
+    padding-right: 1.25rem;
+    justify-content: flex-start;
+}
+
+#buttonPrev::after,
+#buttonNext::after {
+    font-size: 30px !important;
+}
+
+#buttonPrev:hover,
+#buttonNext:hover {
+    background-color: #f8f8f8;
+}
+
+a {
+    color: #000;
+}
+
+@media (max-width: 1260px) {
+    #buttonPrev,
+    #buttonNext {
+        display: none !important;
+    }
+
+    #boxSlider {
+        display: none !important
+    }
+
+    #mobileContainer {
+        display: flex !important;
+    }
+
+    #imgSale img{
+        width: 11rem;
+        transform: translateX(1.125rem);
+    }
+}

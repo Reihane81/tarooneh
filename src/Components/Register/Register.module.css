@@ -1,0 +1,148 @@
+.container {
+    overflow-y: auto !important;
+    background-color : #f8f9fe;
+}
+
+#main {
+    display: grid;
+    min-height: 100vh;
+}
+
+#regisForm {
+    width: min(90%,67.125rem);;
+    margin: auto;
+    border-top: 4px solid #00bd6e;
+    box-shadow: 0 0.625rem 2.5rem rgb(159 152 227 / 16%);
+    background-color: #fff !important;
+    border-radius: 8px;
+    padding: 0 3.125rem;
+    gap: 5rem;
+}
+
+#text {
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+#active {
+    color: #00bd6e;
+    border-bottom: 2px solid #00bd6e;
+}
+
+#join {
+    color: #000 !important;
+    margin: 0 7% 0 4%;
+}
+
+#form {
+    flex: 1.9 1;
+    flex-direction: column;
+    gap: 1.8rem;
+    border-right: 1px solid rgba(161,173,205,.5);
+    padding: 0 4.5rem 0 3rem;
+}
+
+#input {
+    padding-top: .5rem;
+    padding-bottom: .7rem;
+    border-radius: .7rem;
+}
+
+.message {
+    display: flex;
+    line-height: 0;
+    margin: -1rem 0 .5rem 0;
+    padding-right: .2rem;
+    color: red;
+    white-space: pre;
+}
+
+#messagePass,
+#messageConf {
+    margin-top: 1rem;
+}
+
+#password {
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#icon {
+    font-size: 30px;
+    color: #000 !important;
+}
+
+#bgRegist img{
+    width: 85%;
+    float: right;
+}
+
+#divBtn {
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+#joinbtn {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    color: #fff;
+    background-color: #00bd6e;
+}
+
+@media (max-width: 1200px) {
+    #password {
+        flex-direction: column;
+    }
+
+    #messagePass,
+    #messageConf {
+        margin-top: 1rem !important;
+    }
+}
+
+@media (max-width: 900px) {
+    #main {
+        display: flex !important;
+    }
+
+    #regisForm {
+        width: 100% !important;
+        padding: 0 1rem !important;
+        border: none !important;
+    }
+
+    #flexrow {
+        flex-direction: column;
+        padding: 3rem 1.3rem !important;
+    }
+
+    #form {
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    #bgLogin {
+        margin: auto !important;
+        width: auto !important;
+        padding: 0 0 2rem !important;
+    }
+
+    #bgRegist {
+        width: auto !important;
+        padding-bottom: 4rem;
+    }
+
+    #bgRegist img{
+        width: auto !important;
+        float: none !important;
+    }
+
+    #icon {
+        left: 4%;
+    }
+
+    #divBtn {
+        flex-direction: column-reverse;
+    }
+}

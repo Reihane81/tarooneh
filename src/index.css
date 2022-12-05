@@ -1,0 +1,15 @@
+@font-face {
+  font-family: IRANSans;
+  src: local('IRANSans'), url("./assets/fonts/Iranian Sans.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: 'IRANSans' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'IRANSans', serif;
+}

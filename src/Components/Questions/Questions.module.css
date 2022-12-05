@@ -1,0 +1,38 @@
+.section {
+    width: min(90%, 1533px);
+    margin: 2rem auto;
+}
+
+.ques_container {
+    padding: 1rem;
+    border-radius: .6rem;
+    background-color: #F4F6F9;
+}
+
+.ques_header {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.title_box,
+.link_more {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+.link_more {
+    cursor: pointer;
+}
+
+.icon_left {
+    padding-right: .5rem;
+    transition: all .5s;
+    font-size: .9rem;
+}
+
+a:hover .icon_left {
+    transform: translateX(-3px);
+}

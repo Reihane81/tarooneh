@@ -1,0 +1,21 @@
+.container_about {
+    margin: 13rem auto 5rem;
+    padding: 0 7rem;
+}
+
+.box_about_text {
+    padding: 1.5rem 2.5rem;
+    border: 1px solid #f0efeb;
+    border-radius: 8px;
+    background-color: #f5f3f4;
+}
+
+.divImg img {
+    max-width: 10rem;
+    float: right;
+}
+
+.text_about {
+    text-align: justify;
+    line-height: 2.5;
+}

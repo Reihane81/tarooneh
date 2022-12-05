@@ -1,0 +1,177 @@
+#navbar {
+    align-items: center;
+    padding: 0 0 .5rem 0;
+    z-index: 9999 !important;
+    background-color: #fff;
+}
+
+#brand {
+    width: 8%;
+}
+
+#collapse1,
+#collapse2 {
+    align-items: baseline;
+}
+
+#navheader li a {
+    padding: .5rem .7rem;
+    color: #212529;
+    font-weight: 500;
+}
+
+#navheader li a:hover {
+    color: #495057;
+}
+
+.login {
+    border-left: 1px solid #c5c5c5;
+}
+
+#icon {
+    font-size: 16px !important;
+    font-weight: 500;
+    background-color: #00bd6e;
+    border-radius: 10px;
+    white-space: nowrap;
+    transition: .5s ease;
+    cursor: pointer;
+    line-height: 1.8;
+}
+
+#icon:hover {
+    background-color: hsl(155deg, 100%, 30%);
+}
+
+#iconShop {
+    font-size: 24px !important;
+    font-weight: 500;
+    color: #7f7f7f;
+    transition: all .5s ease;
+}
+
+#iconShop:hover {
+    color: #a5a5a5;
+}
+
+form {
+    margin-right: 4rem;
+}
+
+#input {
+    width: 26rem;
+    padding: .75rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: transparent;
+    color: #727272;
+    outline: 0;
+}
+
+#input:focus {
+    background: #fff;
+}
+
+.iconSearch {
+    font-size: 22px;
+}
+
+li {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+}
+
+#collapse2 {
+    margin-top: .5rem;
+}
+
+#menuNav li:first-child {
+    list-style-type: none;
+}
+
+#menuNav li {
+    list-style-type: disc;
+}
+
+#menuNav li a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    white-space: nowrap;
+}
+
+#butShop {
+    padding: .5rem 1.3rem .6rem;
+    font-size: .9rem;
+    color: #00bd6e;
+    border-radius: 9px;
+    border-color: #00bd6e;
+    background-color: hsl(155deg, 100%, 98%);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+#butShop:hover {
+    background-color: hsl(155deg, 100%, 30%);
+    color: #fff;
+}
+
+#modal_dialog {
+    max-width: 38rem;
+}
+
+#modal_box {
+    direction: ltr;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    justify-content: center;
+}
+
+#btn_modal {
+    float: left;
+    padding: .6rem 1rem .7rem;
+    color: #fff;
+    border-radius: 9px;
+    background-color: #00bd6e;
+    transition: .5s ease;
+    cursor: pointer;
+    font-size: .9rem;
+    white-space: nowrap;
+}
+
+#btn_modal:hover {
+    background-color: hsl(155deg, 100%, 30%);
+}
+
+.input_modal {
+    width: 75%;
+    margin-left: .3rem;
+    border-radius: 8px;
+}
+
+@media (max-width: 1129px) {
+    #collapse1,
+    #brand,
+    #collapse2 {
+        display: none !important;
+    }
+
+    #navbar {
+        display: block !important;
+    }
+
+    #logo {
+        display: flex !important;
+        max-height: 7rem;
+        max-width: 100%;
+        width: fit-content;
+    }
+}
